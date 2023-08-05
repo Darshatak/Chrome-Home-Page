@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Search Bar</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+            integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body onload="showTime()">
+
+        <div class="Main-container">
+            <h3 id="hover">Hover to Enable Search</h3>
+            <div class="serach-bar-container active">
+                <form action='https://you.com/search' method='GET'>
+                    <img src="https://cdn2.iconfinder.com/data/icons/user-interface-169/32/search-512.png"
+                        class="magnifier" alt="Search">
+                    <img src="https://cdn3.iconfinder.com/data/icons/arrows-set-12/512/collapse-256.png"
+                        class="collapse" alt="Search">
+
+                    <input name="q" type="text" class="input" placeholder="Search..." />
+                </form>
+            </div>
+
+
+
+        </div>
+        <div class="container">
+            <h1></h1>
+        </div>
+
+        <div class="website">
+
+            <div class="card">
+                <div class="card-body">
+                    <div class="add_web">
+                        <a href="" target="_blank">
+                            <i class="fa fa-plus" style="transform: scale(3); color: aliceblue;   "></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+
+        <button id="backButton">Back</button>
+
+        <button id="nextButton">Next</button>
+
+
+        <footer>
+            <div class="Author">
+                <p>Created By..
+                    <span style="color: rgb(4, 4, 4); font-weight: 500;"> Darshatak Vyas</span>
+                </p>
+            </div>
+        </footer>
+    </body>
+    <script src="index.js"></script>
+
+</html>
